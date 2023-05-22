@@ -6,7 +6,6 @@ import it.sinapsi.messaggiTestRicezione.Dao.EmailDao;
 import jakarta.jms.JMSException;
 import jakarta.jms.TextMessage;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jms.JmsException;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
