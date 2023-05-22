@@ -9,5 +9,4 @@ import java.util.UUID;
 
 @Repository
 public interface EmailPostgresRepository extends JpaRepository<Email, UUID> {
-    List<Email> findEmailByMittente(String mittente);
 }
